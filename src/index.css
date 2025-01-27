@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+body {
+  @apply bg-[#52005B];
+}
+
+.cricket-gradient {
+  background: linear-gradient(to bottom, #52005B 0%, #1a4d8c 100%);
+}
+
+.bottom-nav-gradient {
+  background: linear-gradient(to top, #1b4f2d 0%, #2d7c45 100%);
+}
+
+/* Match card specific styles */
+.match-score {
+  @apply inline-flex items-center justify-center px-3 py-1 rounded-md text-sm font-medium;
+}
+
+.match-score-blue {
+  @apply bg-blue-600 text-white;
+}
+
+.match-score-green {
+  @apply bg-green-600 text-white;
+}
